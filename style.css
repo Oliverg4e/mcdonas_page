@@ -1,6 +1,9 @@
 body{
 	margin: 0; 
+	font-family: verdana;
 }
+
+
 .container-fluid{
 	margin: 0 auto;
 	max-width: 1200px;
@@ -13,10 +16,10 @@ body{
 .header{
 	background-image: url("img/burritos.jpg");
 	background-repeat: no-repeat;
-  	background-size: 100% 75%;
-  	background-color: #334455;
+  	background-size: 100% 100%;
+  	//background-color:#DD440F;
 	height: 100vh;
-	//padding-top: 10px;
+	padding-top: 10px;
 	box-sizing: border-box;
 	position: relative;
 }
@@ -48,16 +51,18 @@ body{
 	margin-left: 20px;
 }
 .header .menu a{
-	color: #C8EFFC;	
+	font-size: 21px;
+	font-weight: bold;
+	color: #DD440F;	
 	text-decoration: none;
 }
 .selected, .header .menu a:hover{
-	border-bottom: 1px solid #C8EFFC;
+	border-bottom: 1px solid #F8EA09;
 	padding-bottom: 3px;
 	transition: 0.4s border;
 } 
 .banner{
-	color: #C8EFFC;
+	color: #DD440F;
 	padding-top: 50px;
 }
 .banner-title{
@@ -66,11 +71,23 @@ body{
 .banner-content{
 	width: 50%;
 }
-.banner-img{
-	position: absolute;
-	bottom: 5%;
-	right: 5%;
-}
+.ImgRec1 {
+		background-image: url(img/burro.jpg);
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+  		width:321px height:181px;
+	}
+
+.ImgRec2 {
+		background-image: url(img/burro.jpg);
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+	}
+.ImgRec3 {
+		background-image: url(img/burro.jpg);
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+	}
 .content{
 	margin-top: 50px;
 }
