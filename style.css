@@ -174,10 +174,7 @@ body{
 }
 
 .footer-content{
-	    clear: both;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
+	
 	color: white;
 }
 
