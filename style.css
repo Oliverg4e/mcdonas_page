@@ -2,6 +2,7 @@ body{
 	margin: 0; 
 	font-family: verdana;
 	background-color: #FCBA08
+	
 }
 
 
@@ -16,7 +17,7 @@ body{
 }
 .header{
 
-	background-image: url("img/burritos.jpg");
+	background-image: url("img/bf.jpg");
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
   	//background-color:#DD440F;
@@ -55,7 +56,8 @@ body{
 .header .menu a{
 	font-size: 21px;
 	font-weight: bold;
-	color: #DD440F;	
+	color: #F1CC02;	
+	 text-shadow: 3px 3px #EA0909;
 	text-decoration: none;
 }
 .selected, .header .menu a:hover{
@@ -70,13 +72,13 @@ body{
     margin-right: auto;
 }
 .banner-title{
-	 text-shadow: 3px 3px #FFBC06;
+	 text-shadow: 3px 3px #FEFEFE;
 	font-size: 70px;
 	 margin-left: auto;
   	margin-right: auto;
 }
 .banner-content{
-	 text-shadow: 3px 3px #FFBC06;
+	 text-shadow: 3px 3px #FEFEFE;
 	width: 70%;
 	font-size: 30px;
 	margin-left: auto;
@@ -96,19 +98,23 @@ body{
 		background-repeat: no-repeat;
   		background-size: 100% 100%;
   		border-radius: 12%;
+  		border:5px solid #CC1212;
 	}
 .ImgRec3 {
-		background-image: url(img/burro.jpg);
+		background-image: url(img/horchata.jpg);
 		background-repeat: no-repeat;
   		background-size: 100% 100%;
   		border-radius: 12%;
+  		border:5px solid #CC1212;
 	}
 
 .ImgRec4 {
-		background-image: url(img/burro.jpg);
+		background-image: url(img/salsa.jpg);
 		background-repeat: no-repeat;
   		background-size: 100% 100%;
   		border-radius: 12%;
+  		border:5px solid #CC1212;
+
 	}
 
 
@@ -145,19 +151,33 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-shadow: 2px 2px #E31717;
 }
 .service-icon{
 	color: #D10E0E;
 	font-size: 80px;
+	text-shadow: 3px 3px #FAFBFC;
+
 }
 .service-description{
 	text-align: center;
 }
 .footer{
-	background-color: #41C0EA;
+
+	background-color: #FE440B;
 	margin-top: 70px;
 	text-align: center;
 	padding: 20px 0;
+	
+}
+
+.footer-content{
+	    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 	color: white;
 }
 
@@ -200,6 +220,18 @@ body{
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
+	.banner-content{
+	width: 70%;
+	font-size: 30px;
+	margin-left: auto;
+ 	margin-right: auto;
+	}
+
+	.banner-title{
+	margin-left: auto;
+ 	margin-right: auto;
+	}
+
 	.service{
 		width: 45%;
 	}
