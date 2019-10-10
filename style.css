@@ -11,7 +11,7 @@ body{
 	display: flex;
 }
 .header{
-	//background-image: url("img/burritos.jpg");
+	background-image: url("img/burritos.jpg");
 	background-repeat: no-repeat;
   	background-size: 100% 75%;
   	background-color: #334455;
@@ -20,13 +20,16 @@ body{
 	box-sizing: border-box;
 	position: relative;
 }
-.header .logo{
+.logo{
 	width: 25%;
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	//box-sizing: border-box;
+	height: 25vh;
+	position: relative;
+	background-image: url("img/logo.png");
 }
-.header .logo h1{
-	color: #C8EFFC;
-	margin: 0;
-}
+
 .header .menu{
 	width: 75%;
 	text-align: right;
@@ -117,6 +120,11 @@ body{
 }
 
 @media screen and (max-width: 1023px){
+	.logo{
+		margin: auto;
+		width: 300px;
+	}
+
 	.header{
 		height: auto;
 		padding-bottom: 20px;
@@ -138,6 +146,11 @@ body{
 	}
 }
 @media screen and (max-width: 767px){
+	.logo{
+		margin: auto;
+		width: 300px;
+	}
+
 	.service-content{
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -147,6 +160,12 @@ body{
 	}
 }
 @media screen and (max-width: 668px){
+
+	.logo{
+		margin: auto;
+		width: 200px;
+	}
+
 	.header .menu ul{
 		display: none;
 	}
