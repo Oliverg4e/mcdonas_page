@@ -1,6 +1,7 @@
 body{
 	margin: 0; 
 	font-family: verdana;
+	background-color: #FCBA08
 }
 
 
@@ -14,6 +15,7 @@ body{
 	display: flex;
 }
 .header{
+
 	background-image: url("img/burritos.jpg");
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
@@ -68,37 +70,51 @@ body{
     margin-right: auto;
 }
 .banner-title{
+	 text-shadow: 3px 3px #FFBC06;
 	font-size: 70px;
 	 margin-left: auto;
   	margin-right: auto;
 }
 .banner-content{
+	 text-shadow: 3px 3px #FFBC06;
 	width: 70%;
 	font-size: 30px;
 	margin-left: auto;
  	margin-right: auto;
 }
 .ImgRec1 {
-		background-image: url(img/burro.jpg);
+		background-image: url(img/menu.png);
 		background-repeat: no-repeat;
   		background-size: 100% 100%;
   		width: 100%;
   		height: 74px;
+
 	}
 
 .ImgRec2 {
 		background-image: url(img/burro.jpg);
 		background-repeat: no-repeat;
   		background-size: 100% 100%;
+  		border-radius: 12%;
 	}
 .ImgRec3 {
 		background-image: url(img/burro.jpg);
 		background-repeat: no-repeat;
   		background-size: 100% 100%;
+  		border-radius: 12%;
 	}
+
+.ImgRec4 {
+		background-image: url(img/burro.jpg);
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+  		border-radius: 12%;
+	}
+
+
 .content{
 	//margin-top: 10px;
-	background-image: linear-gradient(#F3490D,#237369);
+	
 }
 .services{
 	margin: 0 auto;
@@ -131,8 +147,8 @@ body{
 	align-items: center;
 }
 .service-icon{
-	color: #1D6D88;
-	font-size: 50px;
+	color: #D10E0E;
+	font-size: 80px;
 }
 .service-description{
 	text-align: center;
@@ -204,6 +220,28 @@ body{
 	.header .menu ul{
 		display: none;
 	}
+	.banner{
+		color: #DD440F;
+		padding-top: 50px;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+	.banner-title{
+		font-size: 30px;
+		 margin-left: auto;
+	  	margin-right: auto;
+	}
+	.banner-content{
+		width: 70%;
+		font-size: 30px;
+		margin-left: auto;
+	 	margin-right: auto;
+	}
+	.header .menu{
+	width: 75%;
+	text-align: center
+	position: relative;
+}
 	.header .menu input[type="checkbox"]{
 
 		display: block;
